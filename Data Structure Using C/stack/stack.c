@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-#define maxsize 10
+#define maxsize 100
 
 int stack[maxsize], top = -1;
 
@@ -9,7 +9,7 @@ void pop();
 void display();
 
 
-int main()
+int mai n()
 {
     int choice;
     
